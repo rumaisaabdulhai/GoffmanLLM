@@ -11,9 +11,6 @@ framework
 
 import pandas as pd
 
-#! pip install gdown
-! gdown 10PjZ7KtA3V5xsr_UcMT1_uUQ-BjZ3act
-
 import pickle
 with open('anthology_personas.pkl', 'rb') as f:
     backstories = pickle.load(f)
